@@ -1,0 +1,40 @@
+div#title{ 
+  height: calc(100% );
+  margin-bottom: 0 !important;
+  min-height: 600px;
+}
+div#title .flex{
+
+}
+section#title{
+  margin-top: 77px;
+  min-height: 700px;
+}
+section#title video{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+section#title iframe{
+  width: 100%;
+  height: calc(100vh - 77px);
+  height: 100%;
+}
+section#title hgroup{
+   
+}
+section#title hgroup h2{
+   
+}
+section#title hgroup h3{
+   
+}
+section#title hgroup h3 a{
+   
+}
+section#title hgroup h3 path{
+   
+}
+section#title hgroup h3 li{
+   
+}

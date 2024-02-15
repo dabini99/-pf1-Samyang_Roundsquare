@@ -1,0 +1,50 @@
+section#now {  
+  background-color: #fdf8f5;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+section#now div.wrap {  
+  display: flex;
+  gap: 30px;
+}
+section#now div.wrap h2 {
+  width: calc(100% / 3);
+  border-top: 2px solid #F7DECB;
+  padding-top: 40px;
+  line-height: 1.6;
+}
+section#now div.wrap h2 b{
+
+}
+section#now div.wrap h2 b br{
+
+}
+section#now div.wrap ul {  
+  width: calc(100% / 3 * 2);
+  gap: 20px;
+}
+section#now div.wrap ul li {  
+  width: calc(100% / 2 - 10px);
+  border-top: 2px solid #F7DECB;
+  /*! padding-top: 40px; */
+  /*! padding-bottom: 40px; */
+  transition: all 0.5s;
+}
+section#now div.wrap ul li:hover{  
+  border-top: 2px solid orange;
+}
+section#now div.wrap ul li a {
+
+}
+section#now div.wrap ul li a h3 {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  color: #ff6400;
+  font-size: 115%;
+}
+section#now div.wrap ul li a h4 {
+  padding-bottom: 20px;
+}
+section#now div.wrap ul li a p {
+  padding-bottom: 40px;
+}

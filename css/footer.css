@@ -1,0 +1,68 @@
+footer {  
+  background-color: #323232;
+  color: white;
+}
+footer div.wrap{  
+  /*! width: calc(100% / 2); */
+  border-bottom: 1px solid white;
+}
+footer div.wrap div { 
+  line-height: 1.5;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer div.wrap div h1 {
+  
+}
+footer div.wrap div h1 a {  
+  font-size: 0;
+  background-image: url(../img/samyang.png);
+  width: 390px;
+  height: 74px;
+  display: block;
+}
+footer div.wrap div adress { 
+  line-height: 1.6;
+  /*! gap: 50px; */
+  /*! display: flex; */
+  /*! display: contents; */
+}
+footer div.wrap div adress span{ 
+
+  line-height: 1.6;
+}
+footer div.wrap div p {  
+  line-height: 1.6;
+}
+footer div.wrap div selet {
+  
+}
+footer div.wrap ul {  
+  width: calc(100% / 2);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  gap: 40px;
+  text-align: left;
+}
+footer div.wrap ul li {  
+  box-sizing: border-box;
+  /*! width: calc(100% / 4); */
+  border-top: 1px solid white;
+  width: 100%;
+}
+footer div.wrap ul li a {  
+  color: white;
+  line-height: 2.3;
+  display: block;
+}
+footer div.wrap ul li a:hover{
+  color: #999;
+}
+footer div.wrap ul li p{
+  
+}
+footer p{
+  
+}

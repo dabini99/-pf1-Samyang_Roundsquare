@@ -1,0 +1,50 @@
+header{
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+header .wrap{
+  
+  gap: 250px;
+  width: 527px;
+  margin-left: 0;
+  background-color: #323232;
+  padding-left: 40px;
+  align-items: center;
+  border-radius: 0 0 38.5px 0;
+  margin-right: 0;
+  height: 100%;
+  /*! gap: 40px; */
+}
+header .wrap h1{
+  
+}
+header .wrap h1 a{
+
+  font-size: 0;
+  width: 200px;
+  height: 39px;
+  display: block;
+  background-image: url(../img/samyang.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header .wrap a.menu{  
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 0;
+  display: block;
+}
+header::after{
+  content: "삼양라운드스퀘어";
+}

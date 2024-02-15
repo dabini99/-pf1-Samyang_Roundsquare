@@ -1,0 +1,94 @@
+@media screen and (max-width:980px){
+  .h4{    
+  font-size: calc(34px * 0.8);
+  }
+/*  inside  */
+  section#inside{      
+  display: flex;
+  padding: 50px 18px;
+  }
+  section#inside div.wrap ul{    
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  }
+  section#inside div.wrap ul li a p{    
+  padding-top: 15px;
+  }
+/*  products  */
+  section#ibrand div.wrap{    
+  position: relative;
+  padding: 50px 18px;
+  }
+  section#ibrand div.wrap h2{   
+  position: initial;
+  }
+  section#ibrand div.wrap ul.bo{
+  width: 100%;
+  }
+  section#ibrand div.wrap ul.no{   
+  display: none;
+  }
+  section#ibrand div.wrap a{ 
+  display: inherit;
+  position: absolute;
+  bottom: 35px;
+  right: 36%;
+  color: orange;
+  }
+/*  news  */
+  section#now{ 
+  display: inherit;
+  color: orange;
+  padding: 50px 18px;
+  }
+  section#now div.wrap{ 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  }
+  section#now div.wrap h2{    
+  width: 100%;
+  display: flex;
+  border-top: initial;
+  padding-top: initial;
+  }
+  section#now div.wrap ul{    
+  gap: initial;
+  width: 100%;
+  }
+  section#now div.wrap ul li{    
+  width: 100%;
+  padding: initial;
+  }
+  section#now div.wrap ul li:nth-child(2){    
+  display: none;
+  }
+  section#now div.wrap ul li:nth-child(3){    
+  display: none;
+  }
+  section#now div.wrap ul li a h3{    
+  padding: 10% 0;
+  }
+/*  image  */
+  section#image{
+   padding: 50px 18px;
+  }
+/*  footer  */
+  footer{    
+  padding: 0 18px;
+  width: 100%;
+  }
+  footer div.wrap{
+    
+  }
+/*  img  */
+  section#image div.wrap{    
+  }
+  section#image div.wrap ul{    
+  width: 100%;
+  }
+  section#image div.wrap ul img{
+    
+  }
+}

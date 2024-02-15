@@ -1,0 +1,23 @@
+section#image {  
+  /*! display: flex; */
+  background-color: #fdf8f5;
+}
+section#image div.wrap { 
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  width: fit-content;
+  margin: inherit;
+}
+section#image div.wrap h2 {
+  
+}
+section#image div.wrap ul {  
+  width: calc(100% / 3);
+  width: 76%;
+  width: 480px;
+}
+section#image div.wrap ul img {
+  
+  width: 100%;
+}

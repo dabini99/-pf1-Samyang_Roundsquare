@@ -1,0 +1,37 @@
+main{
+  
+}
+section#inside {  
+  background-color: #fdf8f5;
+}
+section#inside div.wrap {
+  
+}
+section#inside div.wrap h2 {  
+  flex-direction: column;
+  display: flex;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+section#inside div.wrap h2 b{
+  line-height: 1.6;
+}
+section#inside div.wrap h2 b br{
+
+}
+section#inside div.wrap ul {  
+  gap: 50px;
+}
+section#inside div.wrap ul li {
+  
+}
+section#inside div.wrap ul li a {  
+  text-align: center;
+}
+section#inside div.wrap ul li a img {
+  
+}
+section#inside div.wrap ul li a p {  
+  padding-top: 35px;
+  font-size: 18px;
+}

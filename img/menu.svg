@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+<style>
+ .ar{
+   fill:white;
+ }
+</style>
+<path class="ar" d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+=======
+<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+<style>
+ .ar{
+   fill:white;
+ }
+</style>
+<path class="ar" d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+>>>>>>> 553f28e9b0dc1c862bba3971e21afcc067ce3346
+</svg>
