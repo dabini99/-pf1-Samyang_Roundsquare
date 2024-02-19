@@ -30,7 +30,6 @@ footer div.wrap div adress {
   /*! display: contents; */
 }
 footer div.wrap div adress span{ 
-
   line-height: 1.6;
 }
 footer div.wrap div p {  
@@ -43,14 +42,15 @@ footer div.wrap ul {
   width: calc(100% / 2);
   grid-template-columns: 1fr 1fr 1fr 1fr;
   display: grid;
-  gap: 40px;
   text-align: left;
+  column-gap: 40px;
 }
 footer div.wrap ul li {  
   box-sizing: border-box;
   /*! width: calc(100% / 4); */
   border-top: 1px solid white;
   width: 100%;
+  padding-bottom: 40px;
 }
 footer div.wrap ul li a {  
   color: white;
@@ -63,6 +63,6 @@ footer div.wrap ul li a:hover{
 footer div.wrap ul li p{
   
 }
-footer p{
+footer>p{
   
 }

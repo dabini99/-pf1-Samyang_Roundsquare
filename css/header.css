@@ -36,14 +36,15 @@ header .wrap h1 a{
   background-position: center;
 }
 header .wrap a.menu{  
-  width: 40px;
-  height: 40px;
-  background-image: url(../img/logo.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  font-size: 0;
+  /*! width: 40px; */
+  /*! height: 40px; */
+  /*! background-image: url(../img/logo.svg); */
+  /*! background-repeat: no-repeat; */
+  /*! background-position: center; */
+  /*! background-size: cover; */
+  /*! font-size: 0; */
   display: block;
+  border-bottom: 1px solid white;
 }
 header::after{
   content: "삼양라운드스퀘어";

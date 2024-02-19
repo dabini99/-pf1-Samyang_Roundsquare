@@ -41,7 +41,7 @@ section#ibrand div.wrap ul.bo li {
   text-align: center;
 }
 section#ibrand div.wrap ul.bo li:not(:first-child){
-  display: none;
+
 }
 section#ibrand div.wrap ul.bo li img { 
   width: 100%;
