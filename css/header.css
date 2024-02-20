@@ -36,15 +36,32 @@ header .wrap h1 a{
   background-position: center;
 }
 header .wrap a.menu{  
-  /*! width: 40px; */
-  /*! height: 40px; */
+  width: 50px;
+  height: 20px;
   /*! background-image: url(../img/logo.svg); */
   /*! background-repeat: no-repeat; */
   /*! background-position: center; */
   /*! background-size: cover; */
-  /*! font-size: 0; */
+  font-size: 0;
   display: block;
-  border-bottom: 1px solid white;
+  border-top: 3px solid white;
+  position: relative;
+}
+header .wrap a.menu::before{
+  content:"";
+  border-bottom: 3px solid white;
+  width: 80%;
+  display: block;
+  position: absolute;
+  top: 8px;
+}
+header .wrap a.menu::after{
+  content:"";
+  border-bottom: 3px solid white;
+  width: 70%;
+  display: block;
+  position: absolute;
+  top: 20px;
 }
 header::after{
   content: "삼양라운드스퀘어";

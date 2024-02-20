@@ -19,6 +19,7 @@
   section#ibrand div.wrap{    
   position: relative;
   padding: 50px 18px;
+  overflow: hidden;
   }
   section#ibrand div.wrap h2{   
   position: initial;
@@ -82,16 +83,23 @@
   section#image div.wrap ul img{
     
   }
+  section#ibrand div.wrap ul.bo li{    
+  }
 /*  footer  */
   footer{    
-  width: 100%;
+  width: auto;
+  padding: 50px 18px;
   }
   footer div.wrap{  
   flex-direction: column;
-  padding: 0 18px;
+  width: 100%;
   }
   footer div.wrap div{  
   width: 100%;
+  padding: 0;
+  }
+  footer div.wrap div h1{
+    width: 100%;
   }
   footer div.wrap div h1 a{  
   width: 266px;
@@ -115,6 +123,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(4,auto);
   width: 100%;
+  padding: 0;
   }
   footer div.wrap ul li{
     
@@ -152,6 +161,18 @@
   footer div.wrap ul li:nth-child(8){  
   grid-column: 2;
   grid-row: 4;
+  }
+  footer div.wrap ul li a{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  footer div.wrap ul li a::after{
+    content: "";
+    background-image: url(../img/more.svg);
+    width: 24px;
+    height: 24px;
+    display: block;
   }
   footer div.wrap ul li p{ 
   display: none;
