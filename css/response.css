@@ -31,11 +31,11 @@
   display: none;
   }
   section#ibrand div.wrap a{ 
-  display: inherit;
-  position: absolute;
-  bottom: 35px;
-  right: 36%;
   color: orange;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 20px 0 10px;
   }
 /*  news  */
   section#now{ 
@@ -162,12 +162,12 @@
   grid-column: 2;
   grid-row: 4;
   }
-  footer div.wrap ul li a{ 
+  footer div.wrap ul li>a{ 
   display: flex;
   justify-content: space-between;
   align-items: center;
   }
-  footer div.wrap ul li a::after{
+  footer div.wrap ul li>a::after{
     content: "";
     background-image: url(../img/more.svg);
     width: 24px;
