@@ -66,9 +66,10 @@ section#ibrand div.wrap ul.no li {
   /*! justify-content: center; */
   gap: 20px;
   text-align: center;
+  overflow: hidden;
 }
 section#ibrand div.wrap ul.no li:not(:first-child){
-  display: none;
+  /*! display: none; */
 }
 section#ibrand div.wrap ul.no li img { 
   width: 100%;
