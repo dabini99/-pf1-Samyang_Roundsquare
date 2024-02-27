@@ -24,13 +24,16 @@
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            //반응형 footer 메뉴 클릭하면 아래로 슬라이드 다운해서 보이기
-            $("footer div.wrap ul li>a").click(function(){
-                $(this).nextAll("p").slideToggle();
-                //클릭한 메뉴만 보이게 하기
-                $(this).parent().siblings().children("p").slideUp();
-                return false;
-            });
+            if($(window).width()<=768){
+                //반응형 footer 메뉴 클릭하면 아래로 슬라이드 다운해서 보이기
+                $("footer div.wrap ul li>a").click(function(){
+                    $(this).nextAll("p").slideToggle();
+                    //클릭한 메뉴만 보이게 하기
+                    $(this).parent().siblings().children("p").slideUp();
+                    return false;
+                });
+            }
+            
         });
     </script>
      <!-- slick -->
@@ -208,30 +211,30 @@
         <section id="image">
             <div class="wrap">
                 <h2 class="hide">사진들</h2>
-                <ul>
+                <li>
                     <img src="img/samyang.webp" alt="삼양">
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <img src="img/ramen.webp" alt="라면">
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <img src="img/tiger.webp" alt="호랑이">
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <img src="img/seasoning.webp" alt="시즈닝">
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <img src="img/forgin.webp" alt="외국인">
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <img src="img/airplan.webp" alt="비행기">
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <img src="img/factory.webp" alt="공장">
-                </ul>
-                <ul>
+                </li>
+                <li>
                     <img src="img/farm.webp" alt="농장">
-                </ul>
+                </li>
             </div>
         </section>
     </main>

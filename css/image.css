@@ -12,12 +12,12 @@ section#image div.wrap {
 section#image div.wrap h2 {
   
 }
-section#image div.wrap ul {  
+section#image div.wrap li {  
   width: calc(100% / 3);
   width: 76%;
   width: 480px;
+  font-size: 0; 
 }
-section#image div.wrap ul img {
-  
+section#image div.wrap li img {
   width: 100%;
 }
