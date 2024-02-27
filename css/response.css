@@ -2,6 +2,20 @@
   .h4{    
   font-size: calc(34px * 0.8);
   }
+/*  header  */
+  header{
+    
+  }
+  header .wrap{
+  padding: 0 10px;
+  gap: 0;
+  width: 100%;
+  justify-content: space-between;
+  }
+  header::after{
+    display: none;
+  }
+
 /*  inside  */
   section#inside{      
   display: flex;
@@ -76,6 +90,7 @@
    padding: 50px 18px;
    width: 100%;
    box-sizing: border-box;
+   overflow: hidden;
   }
   section#image div.wrap{    
   width: calc(100% / 3);

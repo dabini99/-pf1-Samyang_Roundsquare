@@ -1,13 +1,16 @@
 section#image {  
-  /*! display: flex; */
+  display: flex;
   background-color: #fdf8f5;
 }
-section#image div.wrap { 
-  display: grid;
+section#image div { 
+  /*! display: grid; */
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
   width: fit-content;
   margin: inherit;
+  width: 100%;
+}
+section#image div ul{
 }
 section#image div.wrap h2 {
   
@@ -20,4 +23,5 @@ section#image div.wrap li {
 }
 section#image div.wrap li img {
   width: 100%;
+  width: 480px;
 }
