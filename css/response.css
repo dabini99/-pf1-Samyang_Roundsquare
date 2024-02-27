@@ -74,16 +74,27 @@
 /*  image  */
   section#image{
    padding: 50px 18px;
+   width: 100%;
+   box-sizing: border-box;
   }
   section#image div.wrap{    
+  width: calc(100% / 3);
+  /*! height: calc(100% / 3); */
+  display: flex;
+  width: 100%;
+  /*! flex-wrap: wrap; */
   }
-  section#image div.wrap ul{    
+  section#image div.wrap h2 {
   width: 100%;
   }
-  section#image div.wrap ul img{
+  section#image div.wrap li{
     
+  width: 100%;
   }
-  section#ibrand div.wrap ul.bo li{    
+  section#image div.wrap li img{
+
+  width: 100vw;
+  height: 100vw;
   }
 /*  footer  */
   footer{    

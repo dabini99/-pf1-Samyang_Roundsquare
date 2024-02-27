@@ -9,6 +9,7 @@ section#ibrand div.wrap {
   width: calc((100% - 1600px) / 2 + 1600px);
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 section#ibrand div.wrap h2 {  
   display: flex;
